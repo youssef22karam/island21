@@ -1,0 +1,27 @@
+// Entry for island.js: the original module was split into 21 parts in ./island/ (each under 30 KB).
+import "./island-prelude.js";
+import "./island/part01.js";
+import "./island/part02.js";
+import "./island/part03.js";
+import "./island/part04.js";
+import "./island/part05.js";
+import "./island/part06.js";
+import "./island/part07.js";
+import "./island/part08.js";
+import "./island/part09.js";
+import "./island/part10.js";
+import "./island/part11.js";
+import "./island/part12.js";
+import "./island/part13.js";
+import "./island/part14.js";
+import "./island/part15.js";
+import "./island/part16.js";
+import "./island/part17.js";
+import "./island/part18.js";
+import "./island/part19.js";
+import "./island/part20.js";
+import "./island/part21.js";
+export { Ma as generateIsland } from "./island/part05.js";
+export { Mn as islandSpec } from "./island/part13.js";
+export { gs as createIslandEngine } from "./island/part20.js";
+export { Ga as IslandAudio } from "./island/part21.js";
